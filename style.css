@@ -1,0 +1,91 @@
+body {
+	line-height: 1;
+	font:16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+	}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+
+/*Style*/
+}
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: white;
+	}
+.header {
+	padding: 20px;
+	background-color: purple;
+	padding-bottom: 2px;
+	}
+.header .judul {
+	font-size: 38px;
+	font-weight: bold;
+	}
+.container .header .judul a{
+	color: #eaeaea;
+	background-color: purple;
+}
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.header a {
+	text-decoration: none;
+	color: skyblue;
+	padding: 3px;
+
+}
+.header a:hover {
+	background-color: salmon;
+	color: white;
+}
+.hero {
+	height: 280px;
+	background-image: url(hero.jpg);
+	background-size: cover;
+	background-position: 0 -110px;
+	border-top: 5px solid skyblue;
+	border-bottom: 5px solid salmon;
+}
+.content {
+	padding: 20px;
+}
+.content h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+.content .penulis {
+	font-size: 12px;
+	margin-top: -5px;
+}
+.content .penulis a{
+	text-decoration: none;
+	color: skyblue;
+}
+.content p {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+.fotter {
+	background-color: grey;
+	padding: 5px;
+}
+.fotter .copy {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
